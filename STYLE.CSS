@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721260800&semt=ais_user'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #333;
+}
+
+header {
+background-color:#44d4b4;  
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+#home {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#about {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#technology {
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#sustainability {
+    background-color: rgba(255, 255, 255, 0.8); 
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007BFF; /
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
